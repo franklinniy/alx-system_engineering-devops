@@ -1,2 +1,2 @@
 #!/bin/bash
-while IFS= read -r word; do echo "$word"; done < "$(cat)" | sort | uniq -u
+cat | sort | uniq -u
